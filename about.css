@@ -72,13 +72,13 @@ header nav li a:hover{
 
 .showCase{
     background: url('/gd portfollio/background.webp');
-    min-height: 200px;
     background-position: center;
     background-size: cover;
     text-align: center;
-    padding: 80px;
+    padding: 50px;
     color: #370031;
-    font-size: 30px;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .showCase h3{

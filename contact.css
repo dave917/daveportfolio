@@ -75,9 +75,10 @@ header nav li a:hover{
     background-position: center;
     background-size: cover;
     text-align: center;
-    padding: 80px;
+    padding: 50px;
     color: #370031;
-    font-size: 30px;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .showCase h3{
@@ -94,6 +95,10 @@ header nav li a:hover{
         display: none;
         align-items: center;
         justify-content: center;
+    }
+    .showCase{
+        width: 100%;
+        overflow: hidden;
     }
     
     header ul{
