@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    display: none;
+
+
+
+}
+
+.menu:hover{
+    cursor: pointer;
+}
+
+.menu div{
+    width: 30px;
+    height: 2px;
+    margin: 5px 0px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    background-color: #370031;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 0px 30px;
+    
+}
+
+header h2{
+    float: left;
+    margin: 5px;
+}
+
+header nav{
+    background-color: #370031;
+    margin: 10px 0px 0px 50px;
+    float: right;
+    
+}
+header nav li{
+    display: inline;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+header nav li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.home{
+    color: #999;
+}
+
+header nav li a:hover{
+    color: #999;
+}
+
+.showCase{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #3700312c;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.image {
+    width: 40%;
+    width: 50%;
+    margin: 20px;
+    border:1px rgb(146, 175, 185) dashed;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 5px 5px 15px;
+
+
+    
+    
+}
+
+.image img{
+    width: 100%;
+    max-height: 90vh;
+    border-radius: 10px;
+}
+
+.image img:hover{
+    border-radius: 25px;
+    margin: auto;
+    transition-duration: 0.2s;
+
+}
+
+
+@media(max-width: 650px)  {
+
+    .showCase{
+        margin-top: 40px;
+    }
+
+    header nav{
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header ul{
+        display: flex;
+        flex-direction: column;
+    }
+    header nav, h2{
+        float: none;
+    }
+    .image{
+        width: 90%;
+        margin: 20px;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li{
+        margin: 5px;
+    }
+
+}
