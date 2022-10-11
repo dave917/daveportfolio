@@ -70,7 +70,7 @@ header nav li a:hover{
 }
 
 .showCase {
-    background: url('/gd portfollio/background.webp');
+    background: rgb(253, 253, 71);
     min-height: 200px;
     background-position: center;
     background-size: cover;
