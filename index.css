@@ -133,6 +133,10 @@ header nav li a:hover{
         margin: 20px;
     }
 
+    .image img{
+        width: 100%;
+    }
+
     .menu{
         display: block;
     }
