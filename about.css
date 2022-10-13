@@ -71,7 +71,7 @@ header nav li a:hover{
 }
 
 .showCase{
-    background: url('/gd portfollio/background.webp');
+    background: honeydew;
     background-position: center;
     background-size: cover;
     text-align: center;

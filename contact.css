@@ -66,17 +66,17 @@ header nav li a{
 }
 
 header nav li a:hover{
-    color: #999;
+    color: rgb(214, 89, 89);
 }
 
 .showCase {
-    background: rgb(253, 253, 71);
+    background: honeydew;
     min-height: 200px;
     background-position: center;
     background-size: cover;
     text-align: center;
     padding: 50px;
-    color: #370031;
+    color: rgb(90, 37, 37);
     font-size: 20px;
     margin-top: 20px;
 }
