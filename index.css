@@ -4,13 +4,7 @@
     padding: 0;
 }
 
-.logo{
-    
-}
 
-.logo img{
-
-}
 
 .menu{
     position: fixed;
@@ -118,6 +112,7 @@ header nav li a:hover{
 
     .showCase{
         margin-top: 40px;
+        padding: 70px 20px;
     }
 
     header nav{

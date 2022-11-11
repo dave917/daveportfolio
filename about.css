@@ -102,6 +102,12 @@ header nav li a:hover{
     header nav, h2{
         float: none;
     }
+
+    .showCase{
+        width: 100%;
+        overflow: hidden;
+        padding: 70px 20px;
+    }
    
     .menu{
         display: block;

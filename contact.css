@@ -99,6 +99,7 @@ header nav li a:hover{
     .showCase{
         width: 100%;
         overflow: hidden;
+        padding: 70px 20px;
     }
     
     header ul{
